@@ -1,0 +1,22 @@
+AutoWiring: 
+Automatic dependency injection
+
+FOUR different type dependency injection can be done in Spring : 
+1> by name
+2> by type
+3> constructor
+4> auto detect
+
+by default auto wiring is 'no'
+
+
+suppose we have ref tag in bean and Auto wiring is also activated then two objects will be 
+injected at the same time, this is the problem with auto wiring,
+
+Hibernate Template
+Hibernate mapping file
+Hibernate configuration file we need to create
+
+First Configuration Object ---> Session Factory ----> Session Object ( DB operations ) ---> Transaction Object
+
+For using annotations we need to define in xml file <context:annotation-config/>
